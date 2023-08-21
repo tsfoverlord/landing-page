@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
 body {
     font-family: Roboto, sans-serif;
     padding: 0;
@@ -38,6 +38,7 @@ ul li a{
 }
 
 .container {
+    margin-top: 64px;
     display: flex;
     justify-content: space-between;
 }
@@ -53,4 +54,25 @@ ul li a{
     align-items: center;
     justify-content: center;
     padding: 32px;
+}
+
+.hero-text h1 {
+    font-size: 48px;
+    font-weight: 800;
+    color:#F9FAF8;
+    margin:0px;
+}
+.hero-text p{
+    margin-top: 4px;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero-text button{
+    padding: 12px 32px;
+    border-radius: 5px;
+    color: #F9FAF8;
+    background-color: #3882F6;
+    border-style: none;
+    font-weight: 700;
 }
