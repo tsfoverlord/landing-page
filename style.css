@@ -7,16 +7,19 @@ body {
 
 .hero {
     background-color: #1F2937;
+    padding: 16px 370px 100px 370px; 
 }
+
 .header {
     display: flex;
-    justify-content: space-around;
-    padding: 16px;
+    justify-content: space-between;
+    margin-bottom: 16px;
 }
 
 .logo {
     font-size: 24px;
     color: #F9FAF8;
+    font-weight: 800;
 }
 
 ul {
@@ -32,4 +35,22 @@ ul li a{
     font-size: 18px;
     color: #E5E7EB;
     text-decoration: none;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero-text{
+    max-width: 370px;
+}
+
+.image-placeholder {
+    min-width: 370px;
+    background-color: #E5E7EB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 32px;
 }
