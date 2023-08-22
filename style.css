@@ -7,7 +7,7 @@ body {
 
 .hero {
     background-color: #1F2937;
-    padding: 16px 370px 100px 370px; 
+    padding: 16px 350px 100px 350px; 
 }
 
 .header {
@@ -79,7 +79,7 @@ ul li a{
 
 .information {
     padding-top: 24px;
-    padding-bottom: 24px;
+    padding-bottom: 100px;
 }
 .information h1 {
     text-align: center;
@@ -111,4 +111,25 @@ ul li a{
 .card .text {
     text-align: center;
     margin-top: 5px;
+}
+
+.quote{
+    padding:100px 350px;
+    background-color: #E5E7EB;
+    
+}
+.quote blockquote{
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1F2937;
+    margin: 0;
+}
+.quote p {
+    text-align: right;
+    margin: 0;
+    font-weight: 700;
+    font-size: 26px;
+    font-style: italic;
+    color: #1F2937;
 }
