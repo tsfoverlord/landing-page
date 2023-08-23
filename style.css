@@ -7,7 +7,7 @@ body {
 
 .hero {
     background-color: #1F2937;
-    padding: 16px 350px 100px 350px; 
+    padding: 16px 16vw 10vh; 
 }
 
 .header {
@@ -114,7 +114,7 @@ ul li a{
 }
 
 .quote{
-    padding:100px 350px;
+    padding:100px 17vw;
     background-color: #E5E7EB;
     
 }
