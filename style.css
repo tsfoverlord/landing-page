@@ -168,3 +168,14 @@ ul li a{
     padding: 8px 16px;
     color: #F9FAF8;
 }
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #1F2937;
+    color: #E5E7EB;
+
+}
